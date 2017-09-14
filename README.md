@@ -5,6 +5,7 @@ Juego optimizado para el navegador google chrome, tanto para ordenador como para
 
 ## How use it
 
+Descargar todos los archivos en una carpeta, ejecutar "index.html".
 Download all files in one folder, and execute "index.html".
 
 ![alt text](https://github.com/josejosedu/barcos/blob/master/imgrdme/uno.png)
