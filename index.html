@@ -1,0 +1,29 @@
+﻿<html !DOCTYPE>
+
+	<head>
+		<script type="text/javascript" src="funciones/codigo.js"></script>
+		<link rel="icon" href="imagenes\logo.gif"/>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" type="text/css" href="css/CSSmovil.css" media="handheld,only screen and (max-device-width: 480px)"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	</head>
+
+	<body id="padre">
+		<audio id="sonido" src=""></audio>
+		<audio id="musica" src="sonidos/cancion.mp3" autoplay loop></audio>
+		<img id="imagenSonido" src="imagenes/continuar.png" onclick="pararMusica()">
+		<img id="efectosSonido" src="imagenes/efectos.png" onclick="efectos()"/>
+		<div id="jugadores">
+			<h1 id="cargarjug">NUMERO DE JUGADORES</h1><br>
+			<select id="numjug">
+				<option value="2" selected="selected"> 2 </option>
+				<option value="3"> 3 </option>
+				<option value="4"> 4 </option>
+			</select>
+			<br><br>
+			<input id="sig" type="button" value="Siguiente" onclick="numJugadores()"></input>
+		</div>
+	</body>
+
+
+</html>

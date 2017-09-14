@@ -1,0 +1,118 @@
+﻿#imagenSonido
+{
+	width: 50px;
+	height: 50px;
+	margin-top: 50%;
+	position: absolute;
+}
+
+#efectosSonido
+{
+	width: 50px;
+	height: 50px;
+	margin-top: 65%;
+	position: absolute;
+}
+
+#leyenda
+{
+	background-image: url("../imagenes/leyendamovil.png");
+	background-size: 150px 180px;
+	width: 150px;
+	height: 180px;
+	position: absolute;
+	margin-left: 30%;
+	margin-top: 95%;
+}
+
+#siguiente,#sig
+{
+	margin-left: 35%;
+}
+
+#capagrande
+{
+	width: 60%;
+	height: 60%;
+	margin-left: 15%;
+}
+
+#capagrande div
+{
+	background-color: white;
+}
+
+#jugador0,#jugador1,#jugador2,#jugador3
+{
+	/*box-shadow:8px 8px 8px 8px rgba(0,0,10,0.8);	*/	/*sombreado*/
+    border-radius: 15px;
+	opacity: 0.75;
+	font-size: 20px;
+	text-align: center;
+	line-height: 12px;
+	padding-top:0.8%;
+	background-size:cover;
+	width:14%;
+	height:17%;
+	max-width: 40px;
+	max-height: 40px;
+}
+
+p
+{
+	color:#ead0bb;
+	font-size: 10px;
+	text-align: center;/*para alinear al centro del parrafo*/
+}
+
+#sigFinal
+{
+	font-size: 10px;
+	color:#cfffea;
+	padding-top:50%;
+	text-align:center;
+	margin-left: 15%;
+}
+#tablonPuntuaciones
+{
+	width:52%;
+	height:50%;
+	margin-left:25%;
+	background-image:url("../imagenes/puntuacion.jpg");
+	opacity:0;
+	font-size: 8px;
+	cursor:url(../imagenes/sable.png),default ;
+	box-shadow:8px 8px 8px 8px rgba(0,0,10,0.8);		/*sombreado*/
+}
+
+#puntuacion
+{
+	font-size:4.5em;
+	text-align:center;
+	color:gold;
+}
+
+#finjuego
+{
+	font-size:3.5em;
+	text-align:center;
+	position:absolute;
+	margin-top:60%;
+	margin-left:20%;
+	color:gold;
+}
+
+#puntuaciones
+{
+	font-size:2.3em;
+	text-align:center;
+	color:black;
+	line-height: 15px;
+}
+
+#capagrande div{
+	float:left;
+	border:solid 1px black;
+	border-radius:20%;
+	border-image:url("../imagenes/borde.png") 30 round;
+}
